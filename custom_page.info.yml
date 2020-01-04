@@ -1,0 +1,5 @@
+name: Custom Page
+description: 'Provides a custom page using a twig template.'
+type: module
+package: Custom
+core: 8.x
