@@ -1,15 +1,17 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\custom_page\Controller\CustomPageController.
- */
-
 namespace Drupal\custom_page\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 
+/**
+ * Defines CustomPageController class.
+ */
 class CustomPageController extends ControllerBase {
+
+  /**
+   * {@inheritdoc}
+   */
   public function content() {
 
     return [
@@ -18,4 +20,5 @@ class CustomPageController extends ControllerBase {
     ];
 
   }
+
 }
